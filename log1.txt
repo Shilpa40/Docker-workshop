@@ -1,0 +1,283 @@
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 651B 0.0s done
+#1 DONE 0.1s
+
+#2 resolve image config for docker-image://docker.io/docker/dockerfile:1
+#2 ...
+
+#3 [auth] docker/dockerfile:pull token for registry-1.docker.io
+#3 DONE 0.0s
+
+#2 resolve image config for docker-image://docker.io/docker/dockerfile:1
+#2 DONE 9.5s
+
+#4 docker-image://docker.io/docker/dockerfile:1@sha256:fe40cf4e92cd0c467be2cfc30657a680ae2398318afd50b0c80585784c604f28
+#4 resolve docker.io/docker/dockerfile:1@sha256:fe40cf4e92cd0c467be2cfc30657a680ae2398318afd50b0c80585784c604f28 0.0s done
+#4 sha256:fe40cf4e92cd0c467be2cfc30657a680ae2398318afd50b0c80585784c604f28 8.40kB / 8.40kB done
+#4 sha256:dc9e236567481e0aca4c1f52351af213b9a176622f10e3f4a86e5cc48919fa01 482B / 482B done
+#4 sha256:fd020648a727ee1aa6fe2924bf9c498d19385fa2491ddeecb9da9a499c43e35a 1.26kB / 1.26kB done
+#4 sha256:2ba8a93af1b3f8d1c5354117c15aa2eaa674a24a81b6622506a8a524ba8d3fc9 0B / 12.46MB 0.1s
+#4 sha256:2ba8a93af1b3f8d1c5354117c15aa2eaa674a24a81b6622506a8a524ba8d3fc9 1.05MB / 12.46MB 0.6s
+#4 sha256:2ba8a93af1b3f8d1c5354117c15aa2eaa674a24a81b6622506a8a524ba8d3fc9 3.15MB / 12.46MB 0.8s
+#4 sha256:2ba8a93af1b3f8d1c5354117c15aa2eaa674a24a81b6622506a8a524ba8d3fc9 5.24MB / 12.46MB 1.1s
+#4 sha256:2ba8a93af1b3f8d1c5354117c15aa2eaa674a24a81b6622506a8a524ba8d3fc9 6.29MB / 12.46MB 1.2s
+#4 sha256:2ba8a93af1b3f8d1c5354117c15aa2eaa674a24a81b6622506a8a524ba8d3fc9 7.34MB / 12.46MB 1.3s
+#4 sha256:2ba8a93af1b3f8d1c5354117c15aa2eaa674a24a81b6622506a8a524ba8d3fc9 9.44MB / 12.46MB 1.5s
+#4 sha256:2ba8a93af1b3f8d1c5354117c15aa2eaa674a24a81b6622506a8a524ba8d3fc9 10.49MB / 12.46MB 1.7s
+#4 sha256:2ba8a93af1b3f8d1c5354117c15aa2eaa674a24a81b6622506a8a524ba8d3fc9 11.53MB / 12.46MB 1.8s
+#4 sha256:2ba8a93af1b3f8d1c5354117c15aa2eaa674a24a81b6622506a8a524ba8d3fc9 12.46MB / 12.46MB 1.8s done
+#4 extracting sha256:2ba8a93af1b3f8d1c5354117c15aa2eaa674a24a81b6622506a8a524ba8d3fc9 0.1s
+#4 extracting sha256:2ba8a93af1b3f8d1c5354117c15aa2eaa674a24a81b6622506a8a524ba8d3fc9 0.5s done
+#4 DONE 2.6s
+
+#5 [internal] load metadata for docker.io/library/golang:1.20-alpine
+#5 ...
+
+#6 [auth] library/golang:pull token for registry-1.docker.io
+#6 DONE 0.0s
+
+#5 [internal] load metadata for docker.io/library/golang:1.20-alpine
+#5 DONE 10.7s
+
+#7 [internal] load .dockerignore
+#7 transferring context: 2B 0.0s done
+#7 DONE 0.1s
+
+#8 [base 1/5] FROM docker.io/library/golang:1.20-alpine@sha256:e47f121850f4e276b2b210c56df3fda9191278dd84a3a442bfe0b09934462a8f
+#8 resolve docker.io/library/golang:1.20-alpine@sha256:e47f121850f4e276b2b210c56df3fda9191278dd84a3a442bfe0b09934462a8f 0.0s done
+#8 sha256:e47f121850f4e276b2b210c56df3fda9191278dd84a3a442bfe0b09934462a8f 1.65kB / 1.65kB done
+#8 sha256:008f5b5d4645836f4074cbd9f44c513ba7eb00bc3859f08bbfdba24fd4dae65d 1.36kB / 1.36kB done
+#8 sha256:71719a2da3d19db6340a72b90f937507cbcfcbcaf1fb12835a214d6e8c16a650 1.98kB / 1.98kB done
+#8 sha256:4abcf20661432fb2d719aaf90656f55c287f8ca915dc1c92ec14ff61e67fbaf8 0B / 3.41MB 0.2s
+#8 sha256:e8e7baba97f57fa5df2e96f78c627013fec3c450d844769a62de7f40cc5bbed1 0B / 284.20kB 0.2s
+#8 sha256:3bc7f8f202272c1476692180b407ca56cc50f79b8b1859dcd5d579586b5cebce 0B / 101.16MB 0.2s
+#8 ...
+
+#9 [internal] load build context
+#9 transferring context: 65.83kB 0.3s done
+#9 DONE 0.3s
+
+#8 [base 1/5] FROM docker.io/library/golang:1.20-alpine@sha256:e47f121850f4e276b2b210c56df3fda9191278dd84a3a442bfe0b09934462a8f
+#8 sha256:4abcf20661432fb2d719aaf90656f55c287f8ca915dc1c92ec14ff61e67fbaf8 1.05MB / 3.41MB 0.8s
+#8 sha256:4abcf20661432fb2d719aaf90656f55c287f8ca915dc1c92ec14ff61e67fbaf8 2.10MB / 3.41MB 1.1s
+#8 sha256:4abcf20661432fb2d719aaf90656f55c287f8ca915dc1c92ec14ff61e67fbaf8 3.41MB / 3.41MB 1.2s done
+#8 sha256:e8e7baba97f57fa5df2e96f78c627013fec3c450d844769a62de7f40cc5bbed1 284.20kB / 284.20kB 1.2s done
+#8 extracting sha256:4abcf20661432fb2d719aaf90656f55c287f8ca915dc1c92ec14ff61e67fbaf8
+#8 sha256:027e8f7f47157b8e955bc20d9874e68eb427280f2b614af061d1f8011434f751 0B / 175B 1.3s
+#8 sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 0B / 32B 1.3s
+#8 extracting sha256:4abcf20661432fb2d719aaf90656f55c287f8ca915dc1c92ec14ff61e67fbaf8 0.4s done
+#8 sha256:027e8f7f47157b8e955bc20d9874e68eb427280f2b614af061d1f8011434f751 175B / 175B 1.6s done
+#8 sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 32B / 32B 1.7s done
+#8 extracting sha256:e8e7baba97f57fa5df2e96f78c627013fec3c450d844769a62de7f40cc5bbed1
+#8 sha256:3bc7f8f202272c1476692180b407ca56cc50f79b8b1859dcd5d579586b5cebce 5.24MB / 101.16MB 2.0s
+#8 extracting sha256:e8e7baba97f57fa5df2e96f78c627013fec3c450d844769a62de7f40cc5bbed1 0.2s done
+#8 sha256:3bc7f8f202272c1476692180b407ca56cc50f79b8b1859dcd5d579586b5cebce 10.49MB / 101.16MB 2.5s
+#8 sha256:3bc7f8f202272c1476692180b407ca56cc50f79b8b1859dcd5d579586b5cebce 16.78MB / 101.16MB 3.2s
+#8 sha256:3bc7f8f202272c1476692180b407ca56cc50f79b8b1859dcd5d579586b5cebce 22.02MB / 101.16MB 3.8s
+#8 sha256:3bc7f8f202272c1476692180b407ca56cc50f79b8b1859dcd5d579586b5cebce 28.31MB / 101.16MB 4.5s
+#8 sha256:3bc7f8f202272c1476692180b407ca56cc50f79b8b1859dcd5d579586b5cebce 34.60MB / 101.16MB 5.2s
+#8 sha256:3bc7f8f202272c1476692180b407ca56cc50f79b8b1859dcd5d579586b5cebce 40.89MB / 101.16MB 5.9s
+#8 sha256:3bc7f8f202272c1476692180b407ca56cc50f79b8b1859dcd5d579586b5cebce 47.19MB / 101.16MB 6.6s
+#8 sha256:3bc7f8f202272c1476692180b407ca56cc50f79b8b1859dcd5d579586b5cebce 53.48MB / 101.16MB 7.3s
+#8 sha256:3bc7f8f202272c1476692180b407ca56cc50f79b8b1859dcd5d579586b5cebce 58.72MB / 101.16MB 7.9s
+#8 sha256:3bc7f8f202272c1476692180b407ca56cc50f79b8b1859dcd5d579586b5cebce 63.96MB / 101.16MB 8.5s
+#8 sha256:3bc7f8f202272c1476692180b407ca56cc50f79b8b1859dcd5d579586b5cebce 69.21MB / 101.16MB 9.0s
+#8 sha256:3bc7f8f202272c1476692180b407ca56cc50f79b8b1859dcd5d579586b5cebce 74.45MB / 101.16MB 9.6s
+#8 sha256:3bc7f8f202272c1476692180b407ca56cc50f79b8b1859dcd5d579586b5cebce 80.74MB / 101.16MB 10.3s
+#8 sha256:3bc7f8f202272c1476692180b407ca56cc50f79b8b1859dcd5d579586b5cebce 87.03MB / 101.16MB 11.0s
+#8 sha256:3bc7f8f202272c1476692180b407ca56cc50f79b8b1859dcd5d579586b5cebce 93.32MB / 101.16MB 11.9s
+#8 sha256:3bc7f8f202272c1476692180b407ca56cc50f79b8b1859dcd5d579586b5cebce 98.57MB / 101.16MB 12.5s
+#8 sha256:3bc7f8f202272c1476692180b407ca56cc50f79b8b1859dcd5d579586b5cebce 101.16MB / 101.16MB 12.8s done
+#8 extracting sha256:3bc7f8f202272c1476692180b407ca56cc50f79b8b1859dcd5d579586b5cebce
+#8 extracting sha256:3bc7f8f202272c1476692180b407ca56cc50f79b8b1859dcd5d579586b5cebce 5.2s
+#8 extracting sha256:3bc7f8f202272c1476692180b407ca56cc50f79b8b1859dcd5d579586b5cebce 10.3s
+#8 extracting sha256:3bc7f8f202272c1476692180b407ca56cc50f79b8b1859dcd5d579586b5cebce 12.4s done
+#8 extracting sha256:027e8f7f47157b8e955bc20d9874e68eb427280f2b614af061d1f8011434f751
+#8 extracting sha256:027e8f7f47157b8e955bc20d9874e68eb427280f2b614af061d1f8011434f751 done
+#8 extracting sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 done
+#8 DONE 26.4s
+
+#10 [base 2/5] WORKDIR /src
+#10 DONE 0.4s
+
+#11 [base 3/5] COPY go.mod go.sum .
+#11 DONE 0.1s
+
+#12 [base 4/5] RUN --mount=type=cache,target=/go/pkg/mod/     go mod download -x
+#12 0.699 # get https://proxy.golang.org/github.com/lucasb-eyer/go-colorful/@v/v1.2.0.mod
+#12 0.699 # get https://proxy.golang.org/github.com/charmbracelet/bubbletea/@v/v0.23.1.mod
+#12 0.699 # get https://proxy.golang.org/github.com/containerd/console/@v/v1.0.3.mod
+#12 0.699 # get https://proxy.golang.org/github.com/charmbracelet/lipgloss/@v/v0.6.0.mod
+#12 0.699 # get https://proxy.golang.org/github.com/aymanbagabas/go-osc52/@v/v1.0.3.mod
+#12 0.699 # get https://proxy.golang.org/github.com/atotto/clipboard/@v/v0.1.4.mod
+#12 0.699 # get https://proxy.golang.org/github.com/charmbracelet/bubbles/@v/v0.14.0.mod
+#12 0.699 # get https://proxy.golang.org/github.com/go-chi/chi/v5/@v/v5.0.0.mod
+#12 1.102 # get https://proxy.golang.org/github.com/aymanbagabas/go-osc52/@v/v1.0.3.mod: 200 OK (0.403s)
+#12 1.102 # get https://proxy.golang.org/github.com/containerd/console/@v/v1.0.3.mod: 200 OK (0.403s)
+#12 1.102 # get https://proxy.golang.org/github.com/charmbracelet/lipgloss/@v/v0.6.0.mod: 200 OK (0.403s)
+#12 1.103 # get https://proxy.golang.org/github.com/lucasb-eyer/go-colorful/@v/v1.2.0.mod: 200 OK (0.405s)
+#12 1.115 # get https://proxy.golang.org/github.com/mattn/go-isatty/@v/v0.0.16.mod
+#12 1.125 # get https://proxy.golang.org/github.com/mattn/go-localereader/@v/v0.0.1.mod
+#12 1.135 # get https://proxy.golang.org/github.com/mattn/go-runewidth/@v/v0.0.14.mod
+#12 1.140 # get https://proxy.golang.org/github.com/muesli/ansi/@v/v0.0.0-20211018074035-2e021307bc4b.mod
+#12 1.154 # get https://proxy.golang.org/github.com/mattn/go-isatty/@v/v0.0.16.mod: 200 OK (0.039s)
+#12 1.155 # get https://proxy.golang.org/github.com/muesli/cancelreader/@v/v0.2.2.mod
+#12 1.176 # get https://proxy.golang.org/github.com/mattn/go-runewidth/@v/v0.0.14.mod: 200 OK (0.041s)
+#12 1.177 # get https://proxy.golang.org/github.com/muesli/reflow/@v/v0.3.0.mod
+#12 1.178 # get https://proxy.golang.org/github.com/muesli/ansi/@v/v0.0.0-20211018074035-2e021307bc4b.mod: 200 OK (0.038s)
+#12 1.181 # get https://proxy.golang.org/github.com/muesli/termenv/@v/v0.13.0.mod
+#12 1.217 # get https://proxy.golang.org/github.com/muesli/reflow/@v/v0.3.0.mod: 200 OK (0.040s)
+#12 1.219 # get https://proxy.golang.org/github.com/rivo/uniseg/@v/v0.2.0.mod
+#12 1.222 # get https://proxy.golang.org/github.com/muesli/termenv/@v/v0.13.0.mod: 200 OK (0.042s)
+#12 1.227 # get https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20220811171246-fbc7d0a398ab.mod
+#12 1.262 # get https://proxy.golang.org/github.com/rivo/uniseg/@v/v0.2.0.mod: 200 OK (0.043s)
+#12 1.265 # get https://proxy.golang.org/golang.org/x/term/@v/v0.0.0-20210927222741-03fcf44c2211.mod
+#12 1.268 # get https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20220811171246-fbc7d0a398ab.mod: 200 OK (0.041s)
+#12 1.271 # get https://proxy.golang.org/golang.org/x/text/@v/v0.3.7.mod
+#12 1.311 # get https://proxy.golang.org/golang.org/x/term/@v/v0.0.0-20210927222741-03fcf44c2211.mod: 200 OK (0.046s)
+#12 1.314 # get https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20210124154548-22da62e12c0c.mod
+#12 1.319 # get https://proxy.golang.org/golang.org/x/text/@v/v0.3.7.mod: 200 OK (0.048s)
+#12 1.323 # get https://proxy.golang.org/github.com/mattn/go-runewidth/@v/v0.0.13.mod
+#12 1.367 # get https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20210124154548-22da62e12c0c.mod: 200 OK (0.053s)
+#12 1.370 # get https://proxy.golang.org/github.com/muesli/reflow/@v/v0.2.1-0.20210115123740-9e1d0d53df68.mod
+#12 1.381 # get https://proxy.golang.org/github.com/mattn/go-runewidth/@v/v0.0.13.mod: 200 OK (0.058s)
+#12 1.383 # get https://proxy.golang.org/github.com/muesli/termenv/@v/v0.11.1-0.20220204035834-5ac8409525e0.mod
+#12 1.426 # get https://proxy.golang.org/github.com/muesli/reflow/@v/v0.2.1-0.20210115123740-9e1d0d53df68.mod: 200 OK (0.057s)
+#12 1.427 # get https://proxy.golang.org/github.com/mattn/go-runewidth/@v/v0.0.12.mod
+#12 1.430 # get https://proxy.golang.org/github.com/muesli/termenv/@v/v0.11.1-0.20220204035834-5ac8409525e0.mod: 200 OK (0.048s)
+#12 1.432 # get https://proxy.golang.org/github.com/mattn/go-runewidth/@v/v0.0.10.mod
+#12 1.474 # get https://proxy.golang.org/github.com/mattn/go-runewidth/@v/v0.0.12.mod: 200 OK (0.046s)
+#12 1.475 # get https://proxy.golang.org/github.com/mattn/go-isatty/@v/v0.0.14.mod
+#12 1.478 # get https://proxy.golang.org/github.com/mattn/go-runewidth/@v/v0.0.10.mod: 200 OK (0.046s)
+#12 1.479 # get https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20210630005230-0f9fa26af87c.mod
+#12 1.517 # get https://proxy.golang.org/github.com/mattn/go-isatty/@v/v0.0.14.mod: 200 OK (0.042s)
+#12 1.518 # get https://proxy.golang.org/github.com/rivo/uniseg/@v/v0.1.0.mod
+#12 1.524 # get https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20210630005230-0f9fa26af87c.mod: 200 OK (0.044s)
+#12 1.566 # get https://proxy.golang.org/github.com/rivo/uniseg/@v/v0.1.0.mod: 200 OK (0.048s)
+#12 2.750 # get https://proxy.golang.org/github.com/go-chi/chi/v5/@v/v5.0.0.mod: 200 OK (2.051s)
+#12 2.758 # get https://proxy.golang.org/github.com/charmbracelet/bubbles/@v/v0.14.0.mod: 200 OK (2.059s)
+#12 2.758 # get https://proxy.golang.org/github.com/charmbracelet/bubbletea/@v/v0.23.1.mod: 200 OK (2.060s)
+#12 2.758 # get https://proxy.golang.org/github.com/muesli/cancelreader/@v/v0.2.2.mod: 200 OK (1.602s)
+#12 2.760 # get https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20210615035016-665e8c7367d1.mod
+#12 2.760 # get https://proxy.golang.org/golang.org/x/tools/@v/v0.0.0-20180917221912-90fa682c2a6e.mod
+#12 2.760 # get https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20220204135822-1c1b9b1eba6a.mod
+#12 2.765 # get https://proxy.golang.org/github.com/atotto/clipboard/@v/v0.1.4.mod: 200 OK (2.066s)
+#12 2.765 # get https://proxy.golang.org/github.com/mattn/go-localereader/@v/v0.0.1.mod: 200 OK (1.639s)
+#12 2.766 # get https://proxy.golang.org/github.com/charmbracelet/harmonica/@v/v0.2.0.mod
+#12 2.766 # get https://proxy.golang.org/github.com/charmbracelet/lipgloss/@v/v0.5.0.mod
+#12 2.766 # get https://proxy.golang.org/github.com/charmbracelet/bubbletea/@v/v0.21.0.mod
+#12 2.777 # get https://proxy.golang.org/github.com/kylelemons/godebug/@v/v1.1.0.mod
+#12 2.777 # get https://proxy.golang.org/github.com/muesli/termenv/@v/v0.11.1-0.20220212125758-44cd13922739.mod
+#12 2.822 # get https://proxy.golang.org/golang.org/x/tools/@v/v0.0.0-20180917221912-90fa682c2a6e.mod: 200 OK (0.062s)
+#12 2.823 # get https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20210615035016-665e8c7367d1.mod: 200 OK (0.063s)
+#12 2.824 # get https://proxy.golang.org/github.com/sahilm/fuzzy/@v/v0.1.0.mod
+#12 2.825 # get https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20220204135822-1c1b9b1eba6a.mod: 200 OK (0.065s)
+#12 2.828 # get https://proxy.golang.org/github.com/charmbracelet/harmonica/@v/v0.2.0.mod: 200 OK (0.063s)
+#12 2.829 # get https://proxy.golang.org/github.com/charmbracelet/lipgloss/@v/v0.5.0.mod: 200 OK (0.062s)
+#12 2.834 # get https://proxy.golang.org/github.com/muesli/termenv/@v/v0.11.1-0.20220212125758-44cd13922739.mod: 200 OK (0.057s)
+#12 2.834 # get https://proxy.golang.org/github.com/kylelemons/godebug/@v/v1.1.0.mod: 200 OK (0.058s)
+#12 2.863 # get https://proxy.golang.org/github.com/sahilm/fuzzy/@v/v0.1.0.mod: 200 OK (0.039s)
+#12 4.837 # get https://proxy.golang.org/github.com/charmbracelet/bubbletea/@v/v0.21.0.mod: 200 OK (2.071s)
+#12 4.840 # get https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20220209214540-3681064d5158.mod
+#12 4.840 # get https://proxy.golang.org/github.com/muesli/cancelreader/@v/v0.2.0.mod
+#12 4.892 # get https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20220209214540-3681064d5158.mod: 200 OK (0.052s)
+#12 6.333 # get https://proxy.golang.org/github.com/muesli/cancelreader/@v/v0.2.0.mod: 200 OK (1.493s)
+#12 6.336 # get https://proxy.golang.org/github.com/charmbracelet/bubbles/@v/v0.14.0.info
+#12 6.815 # get https://proxy.golang.org/github.com/charmbracelet/bubbles/@v/v0.14.0.info: 200 OK (0.480s)
+#12 6.815 # get https://proxy.golang.org/github.com/charmbracelet/bubbletea/@v/v0.23.1.info
+#12 7.849 # get https://proxy.golang.org/github.com/charmbracelet/bubbletea/@v/v0.23.1.info: 200 OK (1.032s)
+#12 7.850 # get https://proxy.golang.org/github.com/charmbracelet/lipgloss/@v/v0.6.0.info
+#12 8.254 # get https://proxy.golang.org/github.com/charmbracelet/lipgloss/@v/v0.6.0.info: 200 OK (0.405s)
+#12 8.255 # get https://proxy.golang.org/github.com/go-chi/chi/v5/@v/v5.0.0.info
+#12 8.409 # get https://proxy.golang.org/github.com/go-chi/chi/v5/@v/v5.0.0.info: 200 OK (0.154s)
+#12 8.416 # get https://proxy.golang.org/github.com/atotto/clipboard/@v/v0.1.4.info
+#12 8.582 # get https://proxy.golang.org/github.com/atotto/clipboard/@v/v0.1.4.info: 200 OK (0.165s)
+#12 8.582 # get https://proxy.golang.org/github.com/aymanbagabas/go-osc52/@v/v1.0.3.info
+#12 9.353 # get https://proxy.golang.org/github.com/aymanbagabas/go-osc52/@v/v1.0.3.info: 200 OK (0.770s)
+#12 9.353 # get https://proxy.golang.org/github.com/containerd/console/@v/v1.0.3.info
+#12 9.398 # get https://proxy.golang.org/github.com/containerd/console/@v/v1.0.3.info: 200 OK (0.044s)
+#12 9.398 # get https://proxy.golang.org/github.com/lucasb-eyer/go-colorful/@v/v1.2.0.info
+#12 9.447 # get https://proxy.golang.org/github.com/lucasb-eyer/go-colorful/@v/v1.2.0.info: 200 OK (0.048s)
+#12 9.448 # get https://proxy.golang.org/github.com/mattn/go-isatty/@v/v0.0.16.info
+#12 9.501 # get https://proxy.golang.org/github.com/mattn/go-isatty/@v/v0.0.16.info: 200 OK (0.054s)
+#12 9.503 # get https://proxy.golang.org/github.com/mattn/go-localereader/@v/v0.0.1.info
+#12 9.793 # get https://proxy.golang.org/github.com/mattn/go-localereader/@v/v0.0.1.info: 200 OK (0.290s)
+#12 9.794 # get https://proxy.golang.org/github.com/mattn/go-runewidth/@v/v0.0.14.info
+#12 9.842 # get https://proxy.golang.org/github.com/mattn/go-runewidth/@v/v0.0.14.info: 200 OK (0.049s)
+#12 9.843 # get https://proxy.golang.org/github.com/muesli/ansi/@v/v0.0.0-20211018074035-2e021307bc4b.info
+#12 9.888 # get https://proxy.golang.org/github.com/muesli/ansi/@v/v0.0.0-20211018074035-2e021307bc4b.info: 200 OK (0.045s)
+#12 9.888 # get https://proxy.golang.org/github.com/muesli/cancelreader/@v/v0.2.2.info
+#12 10.72 # get https://proxy.golang.org/github.com/muesli/cancelreader/@v/v0.2.2.info: 200 OK (0.830s)
+#12 10.72 # get https://proxy.golang.org/github.com/muesli/reflow/@v/v0.3.0.info
+#12 10.76 # get https://proxy.golang.org/github.com/muesli/reflow/@v/v0.3.0.info: 200 OK (0.039s)
+#12 10.76 # get https://proxy.golang.org/github.com/muesli/termenv/@v/v0.13.0.info
+#12 10.97 # get https://proxy.golang.org/github.com/muesli/termenv/@v/v0.13.0.info: 200 OK (0.212s)
+#12 10.98 # get https://proxy.golang.org/github.com/rivo/uniseg/@v/v0.2.0.info
+#12 11.02 # get https://proxy.golang.org/github.com/rivo/uniseg/@v/v0.2.0.info: 200 OK (0.039s)
+#12 11.02 # get https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20220811171246-fbc7d0a398ab.info
+#12 11.06 # get https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20220811171246-fbc7d0a398ab.info: 200 OK (0.041s)
+#12 11.06 # get https://proxy.golang.org/golang.org/x/term/@v/v0.0.0-20210927222741-03fcf44c2211.info
+#12 11.09 # get https://proxy.golang.org/golang.org/x/term/@v/v0.0.0-20210927222741-03fcf44c2211.info: 200 OK (0.037s)
+#12 11.10 # get https://proxy.golang.org/golang.org/x/text/@v/v0.3.7.info
+#12 11.13 # get https://proxy.golang.org/golang.org/x/text/@v/v0.3.7.info: 200 OK (0.038s)
+#12 11.14 # get https://proxy.golang.org/github.com/lucasb-eyer/go-colorful/@v/v1.2.0.zip
+#12 11.14 # get https://proxy.golang.org/github.com/charmbracelet/bubbletea/@v/v0.23.1.zip
+#12 11.14 # get https://proxy.golang.org/github.com/atotto/clipboard/@v/v0.1.4.zip
+#12 11.14 # get https://proxy.golang.org/github.com/aymanbagabas/go-osc52/@v/v1.0.3.zip
+#12 11.14 # get https://proxy.golang.org/github.com/charmbracelet/lipgloss/@v/v0.6.0.zip
+#12 11.14 # get https://proxy.golang.org/github.com/charmbracelet/bubbles/@v/v0.14.0.zip
+#12 11.14 # get https://proxy.golang.org/github.com/go-chi/chi/v5/@v/v5.0.0.zip
+#12 11.14 # get https://proxy.golang.org/github.com/containerd/console/@v/v1.0.3.zip
+#12 11.19 # get https://proxy.golang.org/github.com/lucasb-eyer/go-colorful/@v/v1.2.0.zip: 200 OK (0.052s)
+#12 11.31 # get https://proxy.golang.org/github.com/containerd/console/@v/v1.0.3.zip: 200 OK (0.176s)
+#12 11.36 # get https://proxy.golang.org/github.com/mattn/go-isatty/@v/v0.0.16.zip
+#12 11.41 # get https://proxy.golang.org/github.com/atotto/clipboard/@v/v0.1.4.zip: 200 OK (0.274s)
+#12 11.42 # get https://proxy.golang.org/github.com/mattn/go-isatty/@v/v0.0.16.zip: 200 OK (0.058s)
+#12 11.43 # get https://proxy.golang.org/github.com/aymanbagabas/go-osc52/@v/v1.0.3.zip: 200 OK (0.292s)
+#12 11.43 # get https://proxy.golang.org/github.com/charmbracelet/lipgloss/@v/v0.6.0.zip: 200 OK (0.292s)
+#12 11.43 # get https://proxy.golang.org/github.com/charmbracelet/bubbletea/@v/v0.23.1.zip: 200 OK (0.293s)
+#12 11.43 # get https://proxy.golang.org/github.com/go-chi/chi/v5/@v/v5.0.0.zip: 200 OK (0.294s)
+#12 11.44 # get https://proxy.golang.org/github.com/mattn/go-runewidth/@v/v0.0.14.zip
+#12 11.44 # get https://proxy.golang.org/github.com/mattn/go-localereader/@v/v0.0.1.zip
+#12 11.44 # get https://proxy.golang.org/github.com/muesli/ansi/@v/v0.0.0-20211018074035-2e021307bc4b.zip
+#12 11.45 # get https://proxy.golang.org/github.com/charmbracelet/bubbles/@v/v0.14.0.zip: 200 OK (0.310s)
+#12 11.46 # get https://proxy.golang.org/github.com/muesli/cancelreader/@v/v0.2.2.zip
+#12 11.48 # get https://proxy.golang.org/github.com/muesli/reflow/@v/v0.3.0.zip
+#12 11.48 # get https://proxy.golang.org/github.com/mattn/go-runewidth/@v/v0.0.14.zip: 200 OK (0.040s)
+#12 11.49 # get https://proxy.golang.org/github.com/muesli/termenv/@v/v0.13.0.zip
+#12 11.49 # get https://proxy.golang.org/github.com/muesli/ansi/@v/v0.0.0-20211018074035-2e021307bc4b.zip: 200 OK (0.044s)
+#12 11.50 # get https://proxy.golang.org/github.com/rivo/uniseg/@v/v0.2.0.zip
+#12 11.50 # get https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20220811171246-fbc7d0a398ab.zip
+#12 11.51 # get https://proxy.golang.org/golang.org/x/term/@v/v0.0.0-20210927222741-03fcf44c2211.zip
+#12 11.52 # get https://proxy.golang.org/github.com/muesli/reflow/@v/v0.3.0.zip: 200 OK (0.040s)
+#12 11.53 # get https://proxy.golang.org/golang.org/x/text/@v/v0.3.7.zip
+#12 11.54 # get https://proxy.golang.org/github.com/rivo/uniseg/@v/v0.2.0.zip: 200 OK (0.035s)
+#12 11.54 # get https://proxy.golang.org/golang.org/x/term/@v/v0.0.0-20210927222741-03fcf44c2211.zip: 200 OK (0.036s)
+#12 11.58 # get https://proxy.golang.org/golang.org/x/sys/@v/v0.0.0-20220811171246-fbc7d0a398ab.zip: 200 OK (0.073s)
+#12 11.58 # get https://proxy.golang.org/golang.org/x/text/@v/v0.3.7.zip: 200 OK (0.046s)
+#12 12.01 # get https://proxy.golang.org/github.com/mattn/go-localereader/@v/v0.0.1.zip: 200 OK (0.566s)
+#12 12.01 # get https://proxy.golang.org/github.com/muesli/cancelreader/@v/v0.2.2.zip: 200 OK (0.553s)
+#12 12.01 # get https://proxy.golang.org/github.com/muesli/termenv/@v/v0.13.0.zip: 200 OK (0.525s)
+#12 DONE 13.9s
+
+#13 [base 5/5] COPY . .
+#13 DONE 0.1s
+
+#14 [build-client 1/1] RUN --mount=type=cache,target=/go/pkg/mod/     go build -o /bin/client ./cmd/client
+#14 DONE 17.1s
+
+#15 [client 1/1] COPY --from=build-client /bin/client /bin/
+#15 DONE 0.1s
+
+#16 exporting to image
+#16 exporting layers
+#16 exporting layers 0.2s done
+#16 writing image sha256:89d7c38ce5e3176d8a895c7f8479d5fb5e626bfecc85038474b6ebb88f22f5fa 0.0s done
+#16 DONE 0.3s
+
+View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux/rfhc2hcdx4tc4053dg15g7x0s
+[1m
+What's next:[0m
+    View a summary of image vulnerabilities and recommendations → [36mdocker scout quickview [0m
